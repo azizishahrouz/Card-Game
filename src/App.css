@@ -1,0 +1,51 @@
+.app {
+  max-width: 860px;
+  margin: 40px auto;
+}
+
+button {
+  background-color: none;
+  border: 2px solid #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: #cfbfbf;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+  background-color: #1b1523;
+}
+button:hover {
+  background-color: #c23866;
+  color: #fff;
+}
+.card-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding-left: 10px;
+  
+}
+
+.front {
+  margin: 2px;
+  width: 150px;
+  height: 140px;
+  
+}
+.back {
+  margin: 2px;
+  width: 150px;
+  height: 140px;
+}
+ 
+
+
+body {
+  font-family: Raleway, sans-serif;
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+  background: #1b1523;
+  color: #fff;
+}
